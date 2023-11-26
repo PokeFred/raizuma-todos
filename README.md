@@ -3,22 +3,23 @@
 
 ## admin.raizuma.de
 - [ ] auth
-    - [ ] login page
-    - [ ] register page
+    - [ ] register page (/auth/signup)
+    - [ ] login page (/auth/login)
+    - [ ] logout page (/auth/logout)
 - [ ] app
-    - [ ] welcome page
+    - [ ] welcome page (/app)
     - [ ] user
-    - [ ] list page
-    - [ ] show page
-    - [ ] edit page
+        - [ ] list page (/app/user)
+        - [ ] show page (/app/user/[id])
+        - [ ] edit page (/app/user/[id])
     - [ ] post
-        - [ ] list page
-        - [ ] show page
-        - [ ] edit page
+        - [ ] list page (/app/post)
+        - [ ] show page (/app/post/[id])
+        - [ ] edit page (/app/post/[id])
     - [ ] project
-        - [ ] list page
-        - [ ] show page
-        - [ ] edit page
+        - [ ] list page (/app/project)
+        - [ ] show page (/app/project/[id])
+        - [ ] edit page (/app/project/[id])
 
 ## api.raizuma.de
 - [ ] user
